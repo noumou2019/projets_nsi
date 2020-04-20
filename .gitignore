@@ -2,3 +2,4 @@ site_nsi
 *.pyc
 staticfiles
 .env
+db.sqlite3
