@@ -28,18 +28,16 @@ background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 
                   <div class="col-md-4">
                     <div class="subscribe-text mb-15">
-                      <span>NUMÉRIQUE ET SCIENCES INFORMATIQUES</span>
-                      
+                      <span>NUMERIQUE SCIENCE INFORMATIQUE</span>
+                      <h2>N.S.I</h2>
                     </div>
                   </div>
                   <div class="col-md-8">
                     <div class="subscribe-wrapper subscribe2-wrapper mb-15">
                       <div class="subscribe-form">
-                        <form action="#">
-                          <input placeholder="Rechercher" type="text">
-                          
+                        <form action="{% url 'index' %}" method="get">
+                          <input name="q" type="text" placeholder="Search...">
                         </form>
-                        
                       </div>
                     </div>
                   </div>
