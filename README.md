@@ -1,2 +1,2 @@
 # projets_nsi
-cours et exercice python niveau lycée
+cours et exercices python niveau lycée
